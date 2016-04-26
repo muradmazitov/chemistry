@@ -61,7 +61,6 @@ end = open("end.txt", "r")
 E = "".join(end.readlines())
 end.close()
 
-
 print("enter first axis and first angle")
 x1, x2, alpha = input().split(" ")
 
