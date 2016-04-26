@@ -3,7 +3,7 @@ from math import *
 class Point:
     def __init__(self, name, x, y, z):
         self.x = float(x)
-        self.y = float(x)
+        self.y = float(y)
         self.z = float(z)
         self.name = str(name)
 
